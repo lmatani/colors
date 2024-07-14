@@ -16,7 +16,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  border: 1px solid white;
+  border: solid 1px darkgray;
+  background-color: black;
 }
 
 /* Estilos para cada una de las box */
@@ -28,7 +29,20 @@
   height: 200px;
   border-width: 1px;
   border-style: solid;
+  border-radius: 2px;
+  font-weight: bold;
   color: white;
+}
+
+.container {
+ 
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px
 }
 
 /* Estilos para el input */
@@ -42,9 +56,89 @@ input {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, box-shadow 0.3s;
   margin-bottom: 20px;
+
 }
 
+.no-red {
+  border-color: red;
+  color: red;
+}
 
+.red {
+  background-color: red;
+  color: black;
+}
 
+.no-green {
+  border-color: green;
+  color: green;
+}
+.green {
+  background-color: green;
+  color: black;
+}
 
+.no-pink {
+  border-color: pink;
+  color: pink;
+}
+.pink {
+  background-color: pink;
+  color: black;
+}
 
+.no-yellow {
+  border-color: yellow;
+  color: yellow;
+}
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+
+.no-purple {
+  border-color: purple;
+  color: purple;
+}
+.purple {
+  background-color: purple;
+  color: black;
+}
+
+.no-white {
+  border-color: white;
+  color: white;
+}
+.white {
+  background-color: white;
+  color: black;
+}
+
+.no-blue {
+  border-color: blue;
+  color: blue;
+}
+.blue {
+  background-color: blue;
+  color: black;
+}
+
+.no-aqua {
+  border-color: aqua;
+  color: aqua;
+}
+.aqua {
+  background-color: aqua;
+  color: black;
+}
+
+.no-olive {
+  border-color: olive;
+  color: olive;
+}
+.olive {
+  background-color: olive;
+  color: black;
+}
+
+  
